@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Mother's Day!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" autoplay loop>
+    <source src="music/background-music.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- Typing Header -->
+  <header>
+    <h1 id="headerText"></h1>
+  </header>
+
+  <main>
+    <!-- Hero Image -->
+    <section class="hero-section fade-in">
+      <img src="img/main-image.png" alt="Main Image" class="hero" />
+    </section>
+
+    <!-- Heart Buttons & Quotes -->
+    <section class="heart-section fade-in delay-1">
+      <p class="lead">Touch me!</p>
+      <div class="heart-container">
+        <span class="heart" data-idx="0">❤️</span>
+        <span class="heart" data-idx="1">❤️</span>
+        <span class="heart" data-idx="2">❤️</span>
+        <span class="heart" data-idx="3">❤️</span>
+        <span class="heart" data-idx="4">❤️</span>
+      </div>
+    </section>
+
+    <!-- Quote Popup -->
+    <div class="quote-box" id="quoteBox">
+      <p id="quoteText"></p>
+    </div>
+
+    <!-- Gallery -->
+    <section class="gallery fade-in delay-2">
+      <h2>Special Moments with My Mom</h2>
+      <div class="gallery-grid">
+        <img src="img/1.jpg" alt="Photo 1" class="gallery-img" />
+        <img src="img/2.jpg" alt="Photo 2" class="gallery-img" />
+        <img src="img/3.jpg" alt="Photo 3" class="gallery-img" />
+        <img src="img/4.jpg" alt="Photo 4" class="gallery-img" />
+        <img src="img/5.jpg" alt="Photo 5" class="gallery-img" />
+        <img src="img/6.jpg" alt="Photo 6" class="gallery-img" />
+        <img src="img/7.jpg" alt="Photo 7" class="gallery-img" />
+        <img src="img/8.jpg" alt="Photo 8" class="gallery-img" />
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="fade-in delay-3">
+    <p>Made by: Rochak ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
