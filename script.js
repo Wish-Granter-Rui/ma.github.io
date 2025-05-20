@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // —— Build & shuffle images ——
-  const imgSources = Array.from({ length: 20 }, (_, i) => `img/${i+1}.jpg`);
+  const imgSources = Array.from({ length: 24 }, (_, i) => `img/${i+1}.jpg`);
   // Fisher–Yates shuffle
   for (let i = imgSources.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
